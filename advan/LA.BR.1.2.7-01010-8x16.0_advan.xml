@@ -32,7 +32,7 @@
   <project groups="pdk" name="device/sample" revision="85a048d02b8cc16317581bb5c9e8fa9821057031" upstream="LA.BR.1.2.7_rb1.5"/>
   <project name="kernel/lk" path="bootable/bootloader/lk" revision="0ece16f48e26193c6766ea7a04e2cafec1649285" upstream="LA.BR.1.2.7_rb1.5"/>
   <!--  <project name="kernel/msm-3.10" path="kernel" revision="7c053e34fde2eac30ff0d78d5005ff79e8aa8d04" upstream="LA.BR.1.2.7_rb1.5"/> -->
-  <project name="apq8016_kernel" path="kernel" remote="advantech-github" />
+  <project remote="advantech-github" name="apq8016_kernel" path="kernel" revision="LA.BR.1.2.7-01010-8x16" />
 
   <project groups="pdk" name="platform/abi/cpp" path="abi/cpp" revision="36b381298a4efb7c293d394d8b1acbda68230989" upstream="LA.BR.1.2.7_rb1.5"/>
   <project groups="pdk" name="platform/art" path="art" revision="2d9113d0c3ad0be67fe12e1367f4899ed6ccfa77" upstream="LA.BR.1.2.7_rb1.5"/>
